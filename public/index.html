@@ -1,0 +1,19 @@
+<h1>Lorem</h1>
+<p>Ever get tired of opening up lipsum.com, filling out a form and waiting for it to give you your filler text?</p>
+
+<p>This is the sample Layerment app written on Ruby. It provides API for generating lipsum text.</p>
+
+<h2>Usage</h3>
+<code>/lorem</code><br/>
+<code>/lorem?number&type</code><br/>
+<code>/lorem?n&t</code><br/>
+
+<h3>query parameters</h4>
+<p><b>number</b> - Defaults to 1 if no parameters given, shortcut is "n"</p>
+<p><b>type</b> - Defaults to paragraphs, available types: "paragraphs", "words", "chars", "characters". Shortcut is "t"</p>
+
+<h3>Examples</h3>
+<p><a href='/lorem'>/lorem</a> - generate 1 paragraph</p>
+<p><a href='/lorem?number=5'>/lorem?number=5</a> - generate 5 paragraphs</p>
+<p><a href='/lorem?number=10&type=words'>/lorem?number=5&type=words</a> - generate 10 words</p>
+<p><a href='/lorem?n=100&t=chars'>/lorem?n=100&t=chars</a> - generate 100 characters</p>
